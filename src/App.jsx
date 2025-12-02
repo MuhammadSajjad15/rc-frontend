@@ -54,7 +54,7 @@ const FileUpload = () => {
     try {
       setIsLoading(true);
 
-      const response = await fetch("http://localhost:8000/upload", {
+      const response = await fetch("https://rc-backend-3u18-pi4bpiprc-muhammadsajjad15s-projects.vercel.app/upload", {
         method: "POST",
         body: formData
       });
